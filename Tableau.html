@@ -1,4 +1,4 @@
- <html lang="en">
+   <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,10 +50,11 @@
             </div>
           </nav>
 
+          
       
-            <div class="container-tableau">
+            <div class="container-tableau1">
                  <div class="row">
-                     <div class="col-md-3 offset-3" style="width:50%;">
+                     <div class="col-md-3 offset-3" style="width:50%">
          
              <table class="table table-striped table-hover">
                <tr class="bg-warning">
@@ -66,33 +67,15 @@
                 <tbody id="mytable">
          
                       </tbody>
-                       </table>
-                
-                       
-                 <script>
-         
-                   var myArray=[
-         
-                   {"username":"100","type":"SIP","Name":"Josephine BITJONG","Number":"100"},
-           {"username":"101","type":"SIP","Name":"Guerite","Number":"101"},
-           {"username":"102","type":"SIP","Name":"Restaurant","Number":"102"},
-           {"username":"103","type":"SIP","Name":"Salle réunion","Number":"103"},
-           {"username":"104","type":"SIP","Name":"Diana MENGUELE","Number":"104"},
-           {"username":"105","type":"SIP","Name":"Martial ADIANG","Number":"105"},
-           {"username":"106","type":"SIP","Name":"Pere Aubin ","Number":"106"},
-           {"username":"107","type":"SIP","Name":"Berthe Nanga","Number":"107"},
-           {"username":"108","type":"SIP","Name":"Tanguy KUATE","Number":"108"},
-           {"username":"109","type":"SIP","Name":"Nadine NJOMO","Number":"109"},
-           {"username":"110","type":"SIP","Name":"Justine FORCHAP","Number":"110"},
-           {"username":"111","type":"SIP","Name":"Louis FONO/Noel WASSOU","Number":"111"},
-           {"username":"112","type":"SIP","Name":"Rolande TCHALEU","Number":"112"},
-           {"username":"113","type":"SIP","Name":"Christelle MEFUNYA","Number":"113"},
-           {"username":"114","type":"SIP","Name":"Moussa MVUH","Number":"114"},
-           {"username":"115","type":"SIP","Name":"Christian NGOUNOU","Number":"115"},
-           
-           ]
-           
-         
+                       </table>                 
+                     
+             <script type="text/javascript">
+  
+                        fetch("data.json")
+                        .then(response=> response.json())
+                        .then(myArray=> {  
+                          console.log(myArray)    
+                                                                                      
                buildTable(myArray)
                   
            $('th').on('click', function(){
@@ -134,7 +117,8 @@
                                 
                                 }
                            }
-         
+                           })
+                  
                      </script>              
                     </div>
                  </div>
