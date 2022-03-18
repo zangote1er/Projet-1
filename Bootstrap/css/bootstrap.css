@@ -80,8 +80,6 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 hr {
@@ -308,10 +306,6 @@ caption {
   text-align: left;
 }
 
-th {
-  text-align: inherit;
-  text-align: -webkit-match-parent;
-}
 
 thead,
 tbody,
@@ -327,10 +321,8 @@ th {
 label {
   display: inline-block;
 }
+  
 
-button {
-  border-radius: 0;
-}
 
 button:focus:not(:focus-visible) {
   outline: 0;
@@ -622,7 +614,6 @@ progress {
 }
 
 .container,
-.
 .container-xl,
 .container-lg,
 .container-md,
@@ -2188,7 +2179,6 @@ progress {
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
-  background-clip: padding-box;
   border: 1px solid #ced4da;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2980,8 +2970,7 @@ textarea.form-control-lg {
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
@@ -3909,7 +3898,7 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
-.nav {
+nav {
   width:100%;
   margin: top 0px left 0px;
 }
@@ -4203,8 +4192,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .navbar-expand-lg {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    position: top fixed;
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -4412,8 +4400,7 @@ textarea.form-control-lg {
   overflow-y: visible;
 }
 
-.navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+//--navbar-lightnavbar-brand//
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
@@ -7809,7 +7796,7 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-light {
+//--bg-light/ {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
