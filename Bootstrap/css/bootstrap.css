@@ -1160,8 +1160,15 @@ progress {
   }
 
   .col-md-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
+      text-align:center;
+      offset-position: left 10px ;
+      color: brown;
+      width:20%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+      font-weight: 500px;
+      font-size: 100%;
+      flex-direction: right;
+      width: 33.33%;
   }
 
   .col-md-5 {
@@ -1256,6 +1263,7 @@ progress {
 .gx-md-0 {
     --bs-gutter-x: 0;
   }
+
 
   .g-md-0,
 .gy-md-0 {
