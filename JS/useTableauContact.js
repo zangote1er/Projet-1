@@ -37,6 +37,7 @@ var tableauJson = {};
     }
     element.textContent = nomEnTete;
     buildTable(tableauJson)
+    searchTableContact()
   }
   
 var xmlhttp = new XMLHttpRequest();
