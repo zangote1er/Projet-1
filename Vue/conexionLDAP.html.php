@@ -17,7 +17,8 @@
             </head>
             <body>
                <!-- code php pour la recupération des infos-->
-          
+          <?php
+          require_once("../Controller/configCo.php") ?>
                 
                  <h1 style="text-align:center; font-family: Arial; margin: 40px; padding:0px; color:brown;"> ENTREZ VOS PARAMETRES   </h1> 
                          <br>         
