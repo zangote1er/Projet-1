@@ -2,5 +2,15 @@
      background-image:url("../Images/campusIcam.jpg");
      background-repeat:space;
      background-attachment:fixed;
-     background-size: 100%;
+      background-size: cover;
+
 }
+
+.scroll-height{
+  height: 60vh;
+}
+.scroll{
+height: 100%;
+overflow-y: scroll;
+}
+
