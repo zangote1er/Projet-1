@@ -1,4 +1,17 @@
- [
-    {"server name":"server 2012 R2"},{"port":""},{"Racine":""},{"root":"Administrateur"},{"password":"Détermine@23"}
-    
-    ]
+[
+   {
+      "server name": "server 2012 R2"
+   },
+   {
+      "port": ""
+   },
+   {
+      "Racine": ""
+   },
+   {
+      "root": "Administrateur"
+   },
+   {
+      "password": "Détermine@23"
+   }
+]

@@ -1,27 +1,26 @@
-
-
-    <div class="container-tableau"> 
-      <div class="row">
-          <div class="col-md-4 offset-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Tableau des contacts</h5>
-                <form class="d-flex">
-                  <input id="inputContact" onkeyup="searchTableContact()" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
-                <p></p>
-            <table class="table table-striped table-hover">
-              <tr class="bg-warning">
-                <th  onclick="tri(this)" id="conctactName">Name &#9650;</th>
-                <th onclick="tri(this)">Number &#9650;</th>
-              </tr>                           
-               <tbody id="tableContact">   </tbody>
-            </table>
-          </div>
+<div class="container-tableau">
+  <div class="row">
+    <div class="col-md-4 offset-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Tableau des contacts</h5>
+          <form class="d-flex">
+            <input id="inputContact" onkeyup="searchTableContact()" class="form-control me-2" type="search"
+              placeholder="Search" aria-label="Search">
+          </form>
+          <p></p>
+          <table class="table table-striped table-hover">
+            <tr class="bg-warning">
+              <th onclick="tri(this)" id="conctactName">Name &#9650;</th>
+              <th onclick="tri(this)">Number &#9650;</th>
+            </tr>
+            <tbody id="tableContact"> </tbody>
+          </table>
         </div>
-          
-            
-            </div>
-          </div>
-          </div>
-          <script src="../JS/useTableauContact.js"> </script> 
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<script src="../JS/useTableauContact.js"> </script>

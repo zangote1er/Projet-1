@@ -18,5 +18,3 @@ if ($ds==1)
 else {
  echo  "Impossible de se connecter au serveur LDAP";
 }
- ?>  
-   
