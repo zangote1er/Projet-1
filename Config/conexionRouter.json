@@ -1,7 +1,7 @@
 {
+    "client-id": "hmouginot",
+    "client_secret": "IcamHubi?55",
     "urlLogin": "'https://10.237.100.254:9696/api/v1/login'",
-    "user": "support-it",
-    "mdp": "Ucac-Icam",
     "endEtat": "&time_period=hour",
     "startEtat": "/api/v2/monitor/system/traffic-history?interface=",
     "urlConexion": "/logincheck",
