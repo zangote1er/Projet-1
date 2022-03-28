@@ -1,0 +1,10 @@
+{
+   "server name": "server 2012 R2",
+   "Racine": "",
+   "root": "Administrateur",
+   "password": "Détermine@23",
+   "server": "ldap.forumsys.com",
+   "port": "389",
+   "rootdn": "cn=read-only-admin,dc=example,dc=com",
+   "rootpw ": " password"
+}
