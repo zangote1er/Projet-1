@@ -5,5 +5,6 @@
     "endEtat": "&time_period=hour",
     "startEtat": "/api/v2/monitor/system/traffic-history?interface=",
     "urlConexion": "/logincheck",
-    "requetConexion": "ajax=1&username=support-it&secretkey=Ucac-Icam"
+    "requetConexion": "ajax=1&username=support-it&secretkey=Ucac-Icam",
+    "urlListContact": "http://10.237.5.2/cgi-bin/apbxgui.cgi?extenl?page=1&rows=200"
 }
