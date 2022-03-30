@@ -1,10 +1,6 @@
 {
-    "client-id": "hmouginot",
-    "client_secret": "IcamHubi?55",
-    "urlLogin": "'https://10.237.100.254:9696/api/v1/login'",
-    "endEtat": "&time_period=hour",
-    "startEtat": "/api/v2/monitor/system/traffic-history?interface=",
-    "urlConexion": "/logincheck",
-    "requetConexion": "ajax=1&username=support-it&secretkey=Ucac-Icam",
+    "urlLoginRouter": "https://10.237.100.254/logincheck",
+    "loginRouter": "ajax=1&username=hmouginot&secretkey=IcamHubi%3F55",
+    "urlSla": "https://10.237.100.254/api/v2/monitor/virtual-wan/sla-log?sla=ping+Google",
     "urlListContact": "http://10.237.5.2/cgi-bin/apbxgui.cgi?extenl?page=1&rows=200"
 }

@@ -1,25 +1,25 @@
-<div class="col-4 ">
+<div class="col">
   <div class="card scroll-height">
     <div class="card-body">
-      <h5 class="card-title">Etat conexion internet</h5>
-      <div id="AttendInfoConexion" style="display: none;">
+      <h5 class="card-title">Etat connexion internet</h5>
+      <div id="AttendInfoConexion">
         <p></p>
         <div class="spinner-border" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
       </div>
-      <div id="dataInfoConexion">
+      <div id="dataInfoConexion" style="display: none;">
         <table class="table table-striped table-hover scroll">
           <tr>
             <th>Lien fibre Creolink </th>
-            <th class="bg-danger" id="wan1">Down</th>
+            <th class="data_internet" id="wan1"></th>
           </tr>
           <tr>
             <th>Lien satelite Vsat </th>
-            <th class="bg-success" id="port10">Up</th>
+            <th class="data_internet" id="port10"></th>
           </tr>
         </table>
-        <button onclick="recharge()" type="button" class="btn btn-secondary">Recharger</button>
+        <button onclick="recharge(this)" type="button" class="btn btn-secondary">Recharger</button>
       </div>
     </div>
   </div>

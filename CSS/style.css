@@ -1,10 +1,4 @@
-.Container{
-     background-image:url("../Images/campusIcam.jpg");
-     background-repeat:space;
-     background-attachment:fixed;
-      background-size: cover;
 
-}
 
 .scroll-height{
   height: 60vh;
