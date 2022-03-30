@@ -2,11 +2,11 @@
 // Fichier de configuration pour l'interface PHP
 //  de notre annuaire LDAP
 
-$conexionLdap = json_decode(file_get_contents("../Config/conexionRouter.json"));
+$conexionLdap = json_decode(file_get_contents("../Config/configLDAP.json"));
 echo "Connexion...<br>";
-$ds = ldap_connect($conexionLdap->server);
+$ds = ldap_connect($conexionLdap->servername,$conexionLdap->port);
 // on s'authentifie en tant que super-utilisateur, ici, ldap_admin
-if (ldap_bind($conexionLdap->ds, $conexionLdap->rootdn, $conexionLdap->rootpw)) {
+if (ldap_bind($ds, $conexionLdap->rootdn)) {
 
     // Ici les opérations à effectuer
     echo "connected successfully";
