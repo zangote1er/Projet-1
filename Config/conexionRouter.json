@@ -1,6 +1,0 @@
-{
-    "urlLoginRouter": "https://10.237.100.254/logincheck",
-    "loginRouter": "ajax=1&username=hmouginot&secretkey=IcamHubi%3F55",
-    "urlSla": "https://10.237.100.254/api/v2/monitor/virtual-wan/sla-log?sla=ping+Google",
-    "urlListContact": "http://10.237.5.2/cgi-bin/apbxgui.cgi?extenl?page=1&rows=200"
-}
