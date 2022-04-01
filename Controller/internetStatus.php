@@ -36,12 +36,12 @@ if (file_exists($file_config)) {
     //create reponse json sla
     $jsonResult = json_decode($result);
     for ($i = 0; $i < count($jsonResult->results); $i++) {
-        $sla = $sla . "\"" . $jsonResult->results[$i]->interface . "\":\"" . $jsonResult->results[$i]->logs[1000]->packetloss . "\"";
+        $sla = $sla . "\"" . $jsonResult->results[$i]->interface . "\":\"" . $jsonResult->results[$i]->logs[1000]->link . "\"";
         if ($i < count($jsonResult->results) - 1) {
             $sla = $sla . ",";
         }
     }
     $sla = $sla . "}";
     file_put_contents($file_output, $sla);
+    echo (file_get_contents($file_output));
 }
-echo (file_get_contents($file_output));

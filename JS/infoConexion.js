@@ -15,13 +15,13 @@ loadInernetInfo.send();
 
 function charge() {
     dataInfoConexion.querySelectorAll("th.data_internet").forEach(element => {
-        if (sla[element.id] > 85) {
-            element.classList.add('bg-warning');
+        if (sla[element.id] == "down") {
+            element.classList.add('bg-danger');
             element.classList.remove('bg-success');
             element.textContent = "Down";
         } else {
             element.classList.add('bg-success');
-            element.classList.remove('bg-warning');
+            element.classList.remove('bg-danger');
             element.textContent = "Up";
         }
     });
@@ -39,6 +39,4 @@ function recharge() {
     };
     loadInernetInfo.open("GET", internetInfoPhp);
     loadInernetInfo.send();
-
-    console.log(sla);
 }
