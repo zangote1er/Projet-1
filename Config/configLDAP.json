@@ -1,6 +1,6 @@
 {
    "servername": "SERVER1",
-   "root": "PROJET/Administrateur",
+   "root": "Projet.Personel.Icam",
    "port": "389",
    "rootdn": "CN=Projet-SERVER1-CA,DC=Projet,DC=personel,DC=Icam",
    "rootpw ": "Détermine@23"
