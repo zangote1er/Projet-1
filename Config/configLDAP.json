@@ -2,6 +2,6 @@
    "servername": "SERVER1",
    "root": "Gestion-Personel.Icam",
    "port": "389",
-   "rootdn": "CN=Gestion-SERVER1-CA,DC=Gestion,DC=personel,DC=Icam",
+   "rootdn": "CN=Gestion-SERVER1-CA,DC=Gestion,DC=Personel,DC=Icam",
    "rootpw ": "Détermine@23"
 }
